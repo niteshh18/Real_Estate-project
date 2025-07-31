@@ -1,0 +1,10 @@
+create database ScrapeApp;
+use ScrapeApp;
+
+create table register(username varchar(30) primary key,
+password varchar(30),
+contact varchar(12),
+email varchar(30),
+address varchar(40));
+
+
